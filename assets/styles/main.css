@@ -7,3 +7,12 @@
     --bg-light: #1E2D2E;
     --green: #0ccc92;
 }
+*{
+    box-sizing: border-box
+}
+body{
+    font-family: 'Saira Condensed', sans-serif;
+}
+button{
+    cursor: pointer;
+}
