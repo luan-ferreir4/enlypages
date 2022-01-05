@@ -1,9 +1,9 @@
 #intro{
-    width: 100vw;
+    width: 100%;
 }
 
 .welcmSvgMbl{
-    width: 100vw;
+    width: inherit;
     margin-top: 42px;
 }
 
