@@ -11,6 +11,7 @@
     box-sizing: border-box
 }
 body{
+    padding-top: 50px;
     font-family: 'Saira Condensed', sans-serif;
 }
 button{

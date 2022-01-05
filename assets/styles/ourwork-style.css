@@ -1,0 +1,12 @@
+#ourwork{
+    background-color: var(--details-light);
+    height: 638px;
+    width: 100vw;
+    margin-top: -0.3rem;
+}
+.ourwork__container{
+    height: inherit;
+    width: 100vw;
+    background-color: var(--black-primary);
+    border-radius: 80px 80px 0px 0px;
+}
