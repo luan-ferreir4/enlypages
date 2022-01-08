@@ -2,10 +2,36 @@
     background-color: var(--details-light);
     height: 638px;
     width: 100%;
-    margin-top: -0.3rem;
 }
 .ourwork__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
     height: inherit;
+    padding: 50px 10px 10px 10px;
     background-color: var(--black-primary);
-    border-radius: 80px 80px 0px 0px;
+    color: var(--white-primary);
+    border-radius: 50px 50px 0px 0px;
+
 }
+.ourwork__container > h1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.ourwork__container > p{
+    margin: 20px 5px;
+    text-align: center;
+}
+ @media(min-width: 780px){
+    .ourwork__container{
+    border-radius: 80px 80px 0px 0px;
+    }
+}
+/*
+@media(min-width: 1024px){
+    #ourwork{
+        margin-top: -0.25rem;
+    }
+} */

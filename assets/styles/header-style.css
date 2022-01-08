@@ -41,7 +41,7 @@
     display: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 780px) {
     #header{
         justify-content: space-between;
         align-items: center;
@@ -63,7 +63,6 @@
     .right__corner{
         margin-left: 2vw;
     }
-
     .nav-buttons > button{
         background-color: transparent;
         color: var(--white-primary);
