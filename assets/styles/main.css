@@ -5,7 +5,9 @@
     --details: #5893A6;
     --details-dark: #0086B0;
     --bg-light: #1E2D2E;
-    --green: #0ccc92;
+    --bg-card: #3E5E68;
+    --green: #0ccc56;
+    --shadow: #00000086;
 }
 *{
     box-sizing: border-box
@@ -16,4 +18,12 @@ body{
 }
 button{
     cursor: pointer;
+}
+p{
+    margin: 0;
+} 
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    font-weight: 400;
 }

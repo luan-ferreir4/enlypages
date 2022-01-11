@@ -33,20 +33,15 @@
     letter-spacing: 4px;
 }
 .intro__content > img {
-    margin-top: 50px;
-    width: 70vw;
+    margin-top: 65px;
+    width: 78vw;
 }
+
 .dsk{
     display: none;
 }
 
-@media (min-width: 780px) {
-    .mbl{
-        display: none;
-    }
-    .dsk{
-        display: unset;
-    }
+@media (min-width: 768px) {
     .welcmSvgDsk{
         width: inherit;
         height: inherit;
@@ -57,7 +52,14 @@
         height: 200px;
     }
     .intro__content > img {
-        width: 70vw;
+        width: 78vw;
+    }
+
+    .mbl{
+        display: none;
+    }
+    .dsk{
+        display: unset;
     }
 }
 
