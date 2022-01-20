@@ -18,11 +18,13 @@
     <link rel="stylesheet" href="assets/styles/intro-style.css" />
     <link rel="stylesheet" href="assets/styles/ourwork-style.css" />
     <link rel="stylesheet" href="./assets/styles/plans-style.css" />
+    <link rel="stylesheet" href="./assets/styles/benefits-style.css" />
+    <link rel="stylesheet" href="./assets/styles/attendance-style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200;300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200;300;400;500;600;800;900&display=swap"
       rel="stylesheet"
     />
 
@@ -31,45 +33,77 @@
   <body>
     <header id="header">
       <button class="header__sidemenu">| | |</button>
+
       <nav class="nav-buttons bttn-left">
         <button class="left__corner">Introdução</button>
         <button>Ver ofertas</button>
       </nav>
+
       <div class="header__symbol"><p>E N L Y</p></div>
+
       <nav class="nav-buttons bttn-right">
         <button>Quem somos</button>
         <button class="right__corner">Contate-nos</button>
       </nav>
     </header>
     <aside id="aside"></aside>
+
     <main id="main">
-      <div id="intro">
+      <section id="intro">
         <img
-          class="welcmSvgMbl mbl"
+          class="introBg__mbl mbl"
           src="./assets/images/png/vector-wlcm-mbl.png"
-          alt="vector"
+          alt="Background-image"
         />
         <img
-          class="welcmSvgDsk"
+          class="introBg__dsk dsk"
           src="./assets/images/png/vector-wlcm-dsk.png"
-          alt="vector"
+          alt="Background-image"
         />
 
         <div class="intro__content">
-          <h1>Bem vindo!</h1>
-          <img
-            class="dsk"
-            src="./assets/images/svg/line-black.svg"
-            alt="----------"
-          />
-          <img
-            class="mbl"
-            src="./assets/images/svg/line-black-mbl.svg"
-            alt="----------"
-          />
+          <h1>Landing Pages!</h1>
+          <h2>De Alta Conversão</h2>
+          <h4>Sua satisfação ou o seu dinheiro de volta</h4>
+
+          <button class="intro__button">Ver Planos</button>
         </div>
-      </div>
-      <div id="ourwork">
+      </section>
+
+      <section id="benefits">
+        <h2 class="title">Vantagens</h2>
+
+        <div class="benefits__container">
+
+          <div class="benefit__card">
+            <div class="benefit__icon">
+              <img src="/assets/images/svg/frt-icon.svg" alt="Desktop-icon" />
+            </div>
+  
+            <p>Design Responsivo</p>
+          </div>
+  
+          <div class="benefit__card">
+            <div class="benefit__icon">
+              <img src="/assets/images/svg/frt-icon.svg" alt="Desktop-icon" />
+            </div>
+  
+            <p>Mais vendas</p>
+          </div>
+  
+          <div class="benefit__card">
+            <div class="benefit__icon">
+              <img src="/assets/images/svg/frt-icon.svg" alt="Desktop-icon" />
+            </div>
+  
+            <p>Copyright de qualidade</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- <section id="ourwork">
         <div class="ourwork__container">
           <h2>Nosso trabalho</h2>
           <p>
@@ -82,13 +116,34 @@
             magna.
           </p>
 
-          <img class="mbl" src="./assets/images/svg/mbl.svg" alt="----------" />
-          <img class="dsk" src="./assets/images/svg/dsk.svg" alt="----------" />
         </div>
-      </div>
-      <div id="plans">
-        <h2>Planos</h2>
-        <img src="./assets/images/svg/thedot.svg" alt=".    .    ." />
+      </section> -->
+
+      <section id="attendance">
+        <div class="attendance__content">
+          <h2 class="title">Atendimento de 9h às 21h</h2>
+
+          <p>
+            Contate-nos pelo WhatsApp ou pelo E-mail. Mensagens por WhatsApp
+            tendem a ser respondidas mais rapidamente
+          </p>
+          <div class="bttns_container">
+            <button class="attendance__bttn wpp mbl"><a href="https://wa.me/5561995018841" target="_blank" rel="noopener noreferrer">WhatsApp aa</a></button>
+
+            <button class="attendance__bttn wpp dsk"><a href="https://web.whatsapp.com/send?phone=5561995018841" target="_blank" rel="noopener noreferrer">WhatsApp</a></button>
+
+            <button class="attendance__bttn email"><a href="https://web.whatsapp.com/send?phone=5561995018841" target="_blank" rel="noopener noreferrer">Email</a></button>
+          </div>
+        </div>
+
+        <div class="attendance__box">
+
+        </div>
+      </section>
+
+      <section id="plans">
+        <h2 class="title">Planos</h2>
+        <img src="./assets/images/svg/threedot.svg" alt=".    .    ." />
 
         <section class="card__container">
           <div class="card">
@@ -156,7 +211,7 @@
                 <small>de</small>
                 <p class="card__old">R$ 300,00</p>
               </div>
-              
+
               <small>por</small>
               <p class="card__new">R$ 150,00</p>
             </div>
@@ -169,9 +224,22 @@
             </ul>
           </div>
         </section>
-      </div>
-      <div id="about"></div>
-      <div id="contact"></div>
+      </section>
+
+      <section id="about">
+        <h2 class="title">Sobre nós</h2>
+        <div class="about__container">
+          <div class="about__card">
+            <p>
+
+            </p>
+            <small></small>
+          </div>
+
+        </div>
+
+      </section>
+
     </main>
     <footer id="footer"></footer>
     <script src="assets/js/script.js"></script>
