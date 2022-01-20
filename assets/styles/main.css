@@ -28,3 +28,14 @@ p{
     letter-spacing: 2px;
     font-weight: 300;
 }
+.dsk{
+    display: none;
+}
+@media (min-width: 768px) {
+    .mbl{
+        display: none;
+    }
+    .dsk{
+        display: unset;
+    }
+}
