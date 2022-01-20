@@ -1,0 +1,17 @@
+#about{
+    height: 520px;
+    width: 100%;
+
+    color: var(--white-primary);
+    background-color: var(--black-primary);
+}
+
+.about__name > span{
+    color: var(--details);
+}
+.about__divider{
+    height: 2px;
+    /* width: 258px; */
+    background-color: var(--details);
+    border: none;
+}
