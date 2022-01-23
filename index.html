@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./assets/styles/benefits-style.css" />
     <link rel="stylesheet" href="./assets/styles/attendance-style.css" />
     <link rel="stylesheet" href="./assets/styles/about-style.css" />
+    <link rel="stylesheet" href="./assets/styles/sidemenu-style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,123 +32,142 @@
 
     <title>E N L Y</title>
   </head>
-  <body>
+  <body onselectstart="return false">
     <header id="header">
-      <button class="header__sidemenu">| | |</button>
-
+      <button id="bttn__sidemenu" class="mbl">| | |</button>
+      
       <nav class="nav-buttons bttn-left">
-        <button class="left__corner">Introdução</button>
-        <button>Ver ofertas</button>
+        <a href="#intro" class="left__corner">Introdução</a>
+        <a href="#attendance">Contate-nos</a>
       </nav>
-
+      
       <div class="header__symbol"><p>E N L Y</p></div>
-
+      
       <nav class="nav-buttons bttn-right">
-        <button>Quem somos</button>
-        <button class="right__corner">Contate-nos</button>
+        <a href="#plans">Ver planos</a>
+        <a href="#about" class="right__corner">Sobre nós</a>
       </nav>
     </header>
-    <aside id="aside"></aside>
 
+    <aside id="sidemenu">
+        <ul id="sidemenu__container">
+          <li>
+            <a href="#intro">Introdução</a>
+          </li>
+          <li>
+            <a href="#attendance">Contate-nos</a>
+          </li>
+          <li>
+            <a href="#plans">Ver planos</a>
+          </li>
+          <li>
+            <a href="#about">Sobre nós</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    
     <main id="main">
       <section id="intro">
         <img
-          class="introBg__mbl mbl"
-          src="./assets/images/png/vector-wlcm-mbl.png"
-          alt="Background-image"
+        class="introBg__mbl mbl"
+        src="./assets/images/png/vector-wlcm-mbl.png"
+        alt="Background-image"
         />
         <img
-          class="introBg__dsk dsk"
-          src="./assets/images/png/vector-wlcm-dsk.png"
-          alt="Background-image"
+        class="introBg__dsk dsk"
+        src="./assets/images/png/vector-wlcm-dsk.png"
+        alt="Background-image"
         />
-
+        
         <div class="intro__content">
           <h1>Landing Pages!</h1>
           <h2>De Alta Conversão</h2>
           <h4>Sua satisfação ou o seu dinheiro de volta</h4>
-
+          
           <button class="intro__button">Ver Planos</button>
         </div>
       </section>
-
+      
       <section id="benefits">
         <h2 class="title">Vantagens</h2>
-
+        
         <div class="benefits__container">
-
           <div class="benefit__card">
             <div class="benefit__icon">
               <img src="/assets/images/svg/frt-icon.svg" alt="Desktop-icon" />
             </div>
-  
+            
             <p>Design Responsivo</p>
           </div>
-  
+          
           <div class="benefit__card">
             <div class="benefit__icon">
               <img src="/assets/images/svg/frt-icon.svg" alt="Desktop-icon" />
             </div>
-  
+            
             <p>Mais vendas</p>
           </div>
-  
+          
           <div class="benefit__card">
             <div class="benefit__icon">
               <img src="/assets/images/svg/frt-icon.svg" alt="Desktop-icon" />
             </div>
-  
+            
             <p>Copyright de qualidade</p>
           </div>
-
         </div>
-
       </section>
-
-      <!-- <section id="ourwork">
-        <div class="ourwork__container">
-          <h2>Nosso trabalho</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            vitae molestie turpis. Etiam nec nunc eget sapien pulvinar
-            efficitur. Aliquam erat volutpat. Pellentesque at nisl sit amet dui
-            rhoncus aliquam. Fusce lacinia et ex sit amet dignissim. Vestibulum
-            luctus purus dolor, eget vestibulum sem ultrices id. Aliquam sit
-            amet metus nunc. Aliquam sed purus in lorem iaculis viverra ut eget
-            magna.
-          </p>
-
-        </div>
-      </section> -->
-
+      
       <section id="attendance">
         <div class="attendance__content">
           <h2 class="title">Atendimento de 9h às 21h</h2>
-
+          
           <p>
             Contate-nos pelo WhatsApp ou pelo E-mail. Mensagens por WhatsApp
             tendem a ser respondidas mais rapidamente
           </p>
           <div class="bttns_container">
-            <button class="attendance__bttn wpp mbl"><a href="https://wa.me/5561995018841" target="_blank" rel="noopener noreferrer">WhatsApp aa</a></button>
-
-            <button class="attendance__bttn wpp dsk"><a href="https://web.whatsapp.com/send?phone=5561995018841" target="_blank" rel="noopener noreferrer">WhatsApp</a></button>
-
-            <button class="attendance__bttn email"><a href="https://web.whatsapp.com/send?phone=5561995018841" target="_blank" rel="noopener noreferrer">Email</a></button>
+            <button class="attendance__bttn wpp mbl">
+              <a
+              href="https://wa.me/5561995018841"
+              target="_blank"
+              rel="noopener noreferrer"
+              >WhatsApp aa</a
+              >
+            </button>
+            
+            <button class="attendance__bttn wpp dsk">
+              <a
+              href="https://web.whatsapp.com/send?phone=5561995018841"
+              target="_blank"
+              rel="noopener noreferrer"
+              >WhatsApp</a
+              >
+            </button>
+            
+            <button class="attendance__bttn email">
+              <a
+              href="https://web.whatsapp.com/send?phone=5561995018841"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Email</a
+              >
+            </button>
           </div>
         </div>
-
+        
         <div class="attendance__box">
-          <img src="./assets/images/svg/dollframe.svg" alt="attendance-doll">
+          <img src="./assets/images/svg/dollframe.svg" alt="attendance-doll" />
         </div>
       </section>
-
+      
       <section id="plans">
         <div class="plans__top">
           <h2 class="title">Planos</h2>
-          <img src="./assets/images/svg/threedot.svg" alt="">
+          <img src="./assets/images/svg/threedot.svg" alt="" />
         </div>
-
+        
         <section class="card__container">
           <div class="card">
             <div class="card__header">
@@ -159,7 +179,7 @@
               <small>por</small>
               <p class="card__new">R$ 50,00</p>
             </div>
-
+            
             <ul class="card__list">
               <li>X - Criação de copy.</li>
               <li>Design responsivo.</li>
@@ -167,7 +187,7 @@
               <li>X - Hospedagem grátis.</li>
             </ul>
           </div>
-
+          
           <div class="card">
             <div class="card__header">
               <h3>Comum</h3>
@@ -178,7 +198,7 @@
               <small>por</small>
               <p class="card__new">R$ 87,50</p>
             </div>
-
+            
             <ul class="card__list">
               <li>X - Criação de copy.</li>
               <li>Design responsivo.</li>
@@ -186,7 +206,7 @@
               <li>Hospedagem grátis por 1 mẽs.</li>
             </ul>
           </div>
-
+          
           <div class="card">
             <div class="card__header">
               <h3>Completo</h3>
@@ -194,11 +214,11 @@
                 <small>de</small>
                 <p class="card__old">R$ 250,00</p>
               </div>
-
+              
               <small>por</small>
               <p class="card__new">R$ 125,00</p>
             </div>
-
+            
             <ul class="card__list">
               <li>Criação de copy.</li>
               <li>Design responsivo.</li>
@@ -206,7 +226,7 @@
               <li>Hospedagem grátis por 2 meses.</li>
             </ul>
           </div>
-
+          
           <div class="card">
             <div class="card__header">
               <h3>Avançado</h3>
@@ -214,11 +234,11 @@
                 <small>de</small>
                 <p class="card__old">R$ 300,00</p>
               </div>
-
+              
               <small>por</small>
               <p class="card__new">R$ 150,00</p>
             </div>
-
+            
             <ul class="card__list">
               <li>Criação de copy.</li>
               <li>Design responsivo.</li>
@@ -228,35 +248,31 @@
           </div>
         </section>
       </section>
-
+      
       <section id="about">
+        <a id="about"></a>
         <div class="about__top">
           <h2 class="title">Sobre nós</h2>
-          <img src="./assets/images/svg/threedot-white.svg" alt="">
+          <img src="./assets/images/svg/threedot-white.svg" alt="" />
         </div>
-
+        
         <div class="about__container">
           <div class="about__card VM">
-            <p class="about__name">
-              Vinicius <span>Moura</span>
-            </p>
-            <hr class="about__divider">
+            <p class="about__name">Vinicius <span>Moura</span></p>
+            <hr class="about__divider" />
             <small class="about__stack">Back-end</small>
           </div>
-
+          
           <div class="about__card LF">
-            <p class="about__name">
-              Luan <span>Ferreira</span>
-            </p>
-            <hr class="about__divider">
+            <p class="about__name">Luan <span>Ferreira</span></p>
+            <hr class="about__divider" />
             <small class="about__stack">Front-end</small>
           </div>
         </div>
-
       </section>
-
     </main>
     <footer id="footer"></footer>
     <script src="assets/js/script.js"></script>
   </body>
-</html>
+  </html>
+  
