@@ -1,17 +1,66 @@
 #about{
     height: 520px;
     width: 100%;
+    padding: 28px 0;
+    text-align: center;
 
     color: var(--white-primary);
     background-color: var(--black-primary);
 }
+.about__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 72%;
+    width: 87%;
+    margin: 46px auto 30px; 
+}
+.about__card{
+    margin-bottom: 40px;
+}
 
+.VM{
+    text-align: right;
+    margin-left: 30%;
+}
+
+.LF{
+    text-align: left;
+    margin-right: 30%;
+}
+
+.about__name{
+    font-size: 1.8rem
+}
 .about__name > span{
     color: var(--details);
 }
 .about__divider{
     height: 2px;
-    /* width: 258px; */
     background-color: var(--details);
     border: none;
+    
+}
+.about__stack{
+    font-size: 1.2rem;
+}
+
+@media(min-width: 768px){
+    .about__top{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about__container{
+        margin: 60px auto;
+    }
 }

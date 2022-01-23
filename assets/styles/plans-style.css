@@ -4,12 +4,18 @@
     align-items: center;
 
     width: 100%;
+    padding: 28px 0;
+
     background-color: var(--white-primary);
-    background-image: url("../images/svg/leftright.svg");
+    background-image: url("../images/svg/plans-bg-mbl.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.plans__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .card__container{
     display: flex;
     flex-direction: column;
@@ -93,6 +99,17 @@
 }
 
 @media(min-width: 768px){
+    #plans{
+        background-image: url("../images/png/plans-bg-dsk.png");
+        background-size: cover;
+    }
+    .plans__top{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
     .card__container{
         display: grid;
         grid-template-columns: 38vw 38vw;

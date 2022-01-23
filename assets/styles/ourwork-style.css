@@ -1,7 +1,7 @@
 #ourwork{
-    /* background-color: var(--details-light); */
     height: 630px;
     width: 100%;
+    padding: 28px 0;
 }
 
 .ourwork__container{

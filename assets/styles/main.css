@@ -12,11 +12,26 @@
 *{
     box-sizing: border-box
 }
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: var(--black-primary);
+  }
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: var(--white-primary); 
+}
+::-webkit-scrollbar-thumb:active {
+    background: var(--details-dark); 
+  }
+   
+  
+
 body{
     padding-top: 50px;
     background-color: var(--white-primary);
     font-family: 'Saira Condensed', sans-serif;
 }
+
 button{
     cursor: pointer;
 }
@@ -24,10 +39,12 @@ p{
     margin: 0;
 } 
 .title{
+    margin: 0 0 26px 0;
     font-size: 2.2rem;
     letter-spacing: 2px;
     font-weight: 300;
 }
+
 .dsk{
     display: none;
 }
@@ -37,5 +54,10 @@ p{
     }
     .dsk{
         display: unset;
+    }
+
+    .title{
+        font-size: 2.4rem;
+        margin: 0;
     }
 }

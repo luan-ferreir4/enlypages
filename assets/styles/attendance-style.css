@@ -6,6 +6,7 @@
 
     width: 100%;
     padding: 28px 0;
+    
     background-color: var(--black-primary);
 }
 
@@ -13,9 +14,8 @@
     width: 90%;
     color: var(--white-primary);
 }
-.attendance__content > h2 {
+.attendance__content > h2{
     text-align: center;
-    margin: 0 0 20px 0;
 }
 .attendance__content > p {
     margin: 0 0 25px 0;
@@ -51,10 +51,7 @@
 }
 
 .attendance__box{
-    width: 280px;
-    height: 280px; 
-    margin: 20px auto 0 auto;
-    background-color: var(--white-primary);
+    margin: 40px auto 20px auto;
 }
 
 @media(min-width: 768px){
@@ -63,15 +60,14 @@
         justify-content: space-around;
     }
     .attendance__content{
-        width: 40%;
+        width: 50%;
     }
-    .attendance__content > H2{
+    .attendance__content > h2{
         text-align: left;
     }
     .attendance__box{
-        width: 380px;
-        height: 300px; 
-        margin: 0;
+        width: 50vw;
+        text-align: center;
     }
     .bttns_container{
         display: flex;

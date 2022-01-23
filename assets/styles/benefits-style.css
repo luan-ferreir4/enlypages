@@ -1,6 +1,6 @@
 #benefits{ 
     width: 100%;
-    margin: 20px 0 40px 0;
+    padding: 28px 0;
     text-align: center;
 }
 
@@ -52,4 +52,11 @@
         margin-top: 20px;
         font-size: 1.5rem;
     }
+}
+
+@media(min-width: 768px){
+    .benefits__container{
+        margin-top: 40px;
+    }
+
 }
